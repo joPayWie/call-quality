@@ -1,0 +1,109 @@
+@font-face{
+    font-family: slateLight;
+    src: url(SlateLight.TTF);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D1CAF4;
+    font-family: slateLight;
+}
+
+.window{
+    background-color: #1A1832;
+    display: flex;
+    height: 75vh;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.8) 0px 20px 15px -15px;
+}
+
+.xcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: 480px;
+}
+
+.window .fa-xmark{
+    color: #746F9F;
+    font-size: 25px;
+    text-shadow: none;
+    margin-top:-30px;
+}
+
+.window h1{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-top: none;
+}
+
+.rating{
+    background-color: #282547;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 140px;
+    width: 75%;
+    margin-top: 40px; 
+}
+
+.rating h2{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.star-rating{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30px;
+}
+
+.fa-solid{
+        color: transparent;
+       -webkit-background-clip: text;
+        background-image: linear-gradient(120deg, #F3D779 60%, #EEC45F 40%);
+        text-shadow: 0 0 10px rgba(238, 196, 95, 0.2);
+} 
+
+.fa-regular{
+    color: #EEC45F;
+}
+
+.quality{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #7C78AA;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.button{
+    background: linear-gradient(135deg, #672CB9 50%, #6317AE 50%);
+    color: white;
+    padding: 18px 80px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.no-hover{
+    color: #6E6B98;
+    margin-top: 25px;
+}
